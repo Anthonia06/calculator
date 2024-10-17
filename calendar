@@ -1,0 +1,335 @@
+# def create_list(prompt):
+#  list=[] 
+# while True:
+#  item=input(prompt) 
+# lst.append(item)
+
+# value =input('Are you through')
+# (yes/no).strip().lower()
+# 'if'  =='yes'
+ 
+# break
+
+# return lst
+# def main():
+#  print('45 ,60 ,10 ,30 ,20',)
+# list1= create_list(60)
+
+# print('80 ,70 ,50 ,90 ,15',)
+# list2=create_list('90')
+# if len ('60')!=len ("90"):
+#  print ("lengh of list dont match")
+# else:
+
+#  print ('length match .proceeding')
+# for_in range ('3') 
+# print('.',flush=True) 
+# time.sleep(1)
+
+# # create a dictionary
+# result-dict =dict(zip(list1,list2) )
+# print('resulting dictionary') 
+# print(result_dict)
+
+# if-name -==-main-''
+# main()
+
+
+
+
+#print('hello')
+#X = 50
+#Y = 60
+#if Y == X:
+    #print('correct')
+#else:
+    #print('incorrect')    
+
+
+# import calendar
+# import os
+
+# #print ( calendar.month(2024,10))
+
+# print (calendar .calendar(2024))
+
+# # x = int(input('enter the year'))
+ 
+# # print(calendar.calendar(x))
+
+
+
+# def print_calendar():
+#     year = int(input('enter the year:'))
+#     month_input = input('enter the month (name or number):')
+
+
+#     # convert month input to integer if it's number
+#     if month_input.isdigit():
+#         month = int(month_input)
+#     else: 
+#        month = list(calendar.month_name) .index(month_input.capitalize())
+
+#       # print the calendar
+#     print(f"the calendar for the month of {calendar.month_name[month]} is:") 
+#     print(calendar.month(year,month))
+
+# print_calendar()
+ 
+
+
+
+# from os import listdir
+# import os
+
+
+# def renamer():
+#     path = input("enter the file path you wish to rename")
+#     path = path.replace("\\","/")
+#     path = path + "/"
+#     i = 0
+#     for filename in os,listdir(path):  
+#         my_source = path + filename
+#         my_dest = "IMG" + str(i) + ".jpg"
+#         my_dest =path + my_dest
+#         os.rename(my_source,my_dest)
+#         i +=1
+#     print("success you can now check your folder")
+
+#
+
+
+#for i in range(5):
+#  for j in range(5):
+print('*',end='')
+print()
+
+
+#def left_triangle(n):
+#for i in range(n):
+#   for j in range(i+1):
+print('*',end='')
+print()
+
+
+#my_num=int(input('enter the number of rows:'))
+#def inv_right_right_angle(n):
+#for i in range(n+i):
+print('*',end='')
+print()
+
+
+#def right_aligned_triangle(n):
+#for i in range(1,n+1):
+#for j in range(n-i):
+print(" ", end="")
+#for k in range(i):
+print("* ", end="")
+print()
+
+
+#def inverted_right_aligned_triangle(n):
+#for i in range(n,0,-1):
+#for j in range(n-i):
+print("",end="")
+#for k in range(i):
+print("*",end="")
+print()
+
+
+
+#def diamond(n):
+n=int(input("enter the number of rows"))
+# Top half
+# for i in range(1,n +1):
+print(''* (n - i ) +'*'*i)
+# bottom half
+# for i in range(n-1,0,-1):
+print(''* (n - i ) +'*'*i)
+
+#Example:print a diamond of height 5
+#diamond(5)
+
+
+
+# Strl = 'GeeksforGeeks'
+# upper = lambda string:string. upper()
+# print(upper(Strl))
+ 
+
+
+# list= [[2,3,4],[1,4,16,64],[3,6,9,12]]
+
+# sortlist = lambda x: (sorted(i)for i in x)
+# secondlargest = lambda x, f:[y[len(y)-2]for y in f(x)]
+# res = secondlargest(list, sortlist)
+
+# print(res)
+
+
+
+# #inverted right-angled triangle
+# def inverted_right_triangle(n):
+#  for i in range(n,0,-1):
+#   print('*'* i)
+
+# #Example: print an inverted right-angled triangle of height 5
+# inverted_right_triangle(5)
+
+
+#pyramid 
+
+# def pyramid(n):
+#  for i in range(1,n + 1):
+#     print(''*(n-i)+'*'*i)
+
+
+# #Example: print a pyramid of height 5
+# pyramid(5)
+
+#diamond
+# def diamond(n):
+#   n = int(input("enter the number of rows you wish to print: "))
+# # Top half
+#   for i in range(1, n+1):
+#     print(''*(n-i) + '*'* i) 
+# # Bottom half
+#   for i in range(n-1,0,-1):
+#     print(''*(n-i) + '*'*i)
+#   print(n)
+
+
+# Example: print a diamond of height 5
+# diamond(n)
+
+
+
+
+
+# # for i in range(1, 11):
+# #  print(i)
+
+# help(print)
+
+
+# open he file in read mode
+file =open('example.text','r')
+
+# Read the entire content of the file
+content =file.read()
+
+# print the content
+print (content)
+
+# close the file
+file.close()
+
+
+
+
+
+# Strl = 'GeeksforGeeks'
+# upper = lambda string:string. upper()
+# print(upper(Strl))
+ 
+
+
+# list= [[2,3,4],[1,4,16,64],[3,6,9,12]]
+
+# sortlist = lambda x: (sorted(i)for i in x)
+# secondlargest = lambda x, f:[y[len(y)-2]for y in f(x)]
+# res = secondlargest(list, sortlist)
+
+# print(res)
+
+
+
+# #inverted right-angled triangle
+# def inverted_right_triangle(n):
+#  for i in range(n,0,-1):
+#   print('*'* i)
+
+# #Example: print an inverted right-angled triangle of height 5
+# inverted_right_triangle(5)
+
+
+#pyramid 
+
+# def pyramid(n):
+#  for i in range(1,n + 1):
+#     print(''*(n-i)+'*'*i)
+
+
+# #Example: print a pyramid of height 5
+# pyramid(5)
+
+#diamond
+# def diamond(n):
+#   n = int(input("enter the number of rows you wish to print: "))
+# # Top half
+#   for i in range(1, n+1):
+#     print(''*(n-i) + '*'* i) 
+# # Bottom half
+#   for i in range(n-1,0,-1):
+#     print(''*(n-i) + '*'*i)
+#   print(n)
+
+
+# Example: print a diamond of height 5
+# diamond(n)
+
+
+
+
+
+# # for i in range(1, 11):
+# #  print(i)
+
+# help(print)
+
+
+# open he file in read mode
+file =open('example.text','r')
+
+# Read the entire content of the file
+content =file.read()
+
+# print the content
+print (content)
+
+# close the file
+file.close()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

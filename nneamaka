@@ -1,0 +1,86 @@
+# Strl = 'GeeksforGeeks'
+# upper = lambda string:string. upper()
+# print(upper(Strl))
+ 
+
+
+# list= [[2,3,4],[1,4,16,64],[3,6,9,12]]
+
+# sortlist = lambda x: (sorted(i)for i in x)
+# secondlargest = lambda x, f:[y[len(y)-2]for y in f(x)]
+# res = secondlargest(list, sortlist)
+
+# print(res)
+
+
+
+# #inverted right-angled triangle
+# def inverted_right_triangle(n):
+#  for i in range(n,0,-1):
+#   print('*'* i)
+
+# #Example: print an inverted right-angled triangle of height 5
+# inverted_right_triangle(5)
+
+
+#pyramid 
+
+# def pyramid(n):
+#  for i in range(1,n + 1):
+#     print(''*(n-i)+'*'*i)
+
+
+# #Example: print a pyramid of height 5
+# pyramid(5)
+
+#diamond
+# def diamond(n):
+#   n = int(input("enter the number of rows you wish to print: "))
+# # Top half
+#   for i in range(1, n+1):
+#     print(''*(n-i) + '*'* i) 
+# # Bottom half
+#   for i in range(n-1,0,-1):
+#     print(''*(n-i) + '*'*i)
+#   print(n)
+
+
+# Example: print a diamond of height 5
+# diamond(n)
+
+
+
+
+
+# # for i in range(1, 11):
+# #  print(i)
+
+# help(print)
+
+
+# # open the file in read mode
+# file =open('nneamaka.txt','r')
+
+# # Read the entire content of the file
+# content =file.read()
+
+# # print the content
+# print (content)
+
+# # close the file
+# file.close()
+
+def add_(a,b): 
+   print(a+b)
+
+from nneamaka.txt import add
+
+
+
+
+
+
+
+
+
+
